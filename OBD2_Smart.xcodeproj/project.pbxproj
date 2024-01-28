@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E7187752B65F951006D174B /* OBD2_SmartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187742B65F951006D174B /* OBD2_SmartApp.swift */; };
+		6E7187772B65F951006D174B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187762B65F951006D174B /* ContentView.swift */; };
+		6E7187792B65F952006D174B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7187782B65F952006D174B /* Assets.xcassets */; };
+		6E71877D2B65F952006D174B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E71877C2B65F952006D174B /* Preview Assets.xcassets */; };
+		6E7187872B65F952006D174B /* OBD2_SmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187862B65F952006D174B /* OBD2_SmartTests.swift */; };
+		6E7187912B65F952006D174B /* OBD2_SmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187902B65F952006D174B /* OBD2_SmartUITests.swift */; };
+		6E7187932B65F952006D174B /* OBD2_SmartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187922B65F952006D174B /* OBD2_SmartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E7187832B65F952006D174B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E7187692B65F951006D174B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E7187702B65F951006D174B;
+			remoteInfo = OBD2_Smart;
+		};
+		6E71878D2B65F952006D174B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E7187692B65F951006D174B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E7187702B65F951006D174B;
+			remoteInfo = OBD2_Smart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E7187712B65F951006D174B /* OBD2_Smart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBD2_Smart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7187742B65F951006D174B /* OBD2_SmartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBD2_SmartApp.swift; sourceTree = "<group>"; };
+		6E7187762B65F951006D174B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E7187782B65F952006D174B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E71877A2B65F952006D174B /* OBD2_Smart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OBD2_Smart.entitlements; sourceTree = "<group>"; };
+		6E71877C2B65F952006D174B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E7187822B65F952006D174B /* OBD2_SmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBD2_SmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7187862B65F952006D174B /* OBD2_SmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBD2_SmartTests.swift; sourceTree = "<group>"; };
+		6E71878C2B65F952006D174B /* OBD2_SmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBD2_SmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7187902B65F952006D174B /* OBD2_SmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBD2_SmartUITests.swift; sourceTree = "<group>"; };
+		6E7187922B65F952006D174B /* OBD2_SmartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBD2_SmartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E71876E2B65F951006D174B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E71877F2B65F952006D174B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E7187892B65F952006D174B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E7187682B65F951006D174B = {
+			isa = PBXGroup;
+			children = (
+				6E7187732B65F951006D174B /* OBD2_Smart */,
+				6E7187852B65F952006D174B /* OBD2_SmartTests */,
+				6E71878F2B65F952006D174B /* OBD2_SmartUITests */,
+				6E7187722B65F951006D174B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E7187722B65F951006D174B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E7187712B65F951006D174B /* OBD2_Smart.app */,
+				6E7187822B65F952006D174B /* OBD2_SmartTests.xctest */,
+				6E71878C2B65F952006D174B /* OBD2_SmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E7187732B65F951006D174B /* OBD2_Smart */ = {
+			isa = PBXGroup;
+			children = (
+				6E7187742B65F951006D174B /* OBD2_SmartApp.swift */,
+				6E7187762B65F951006D174B /* ContentView.swift */,
+				6E7187782B65F952006D174B /* Assets.xcassets */,
+				6E71877A2B65F952006D174B /* OBD2_Smart.entitlements */,
+				6E71877B2B65F952006D174B /* Preview Content */,
+			);
+			path = OBD2_Smart;
+			sourceTree = "<group>";
+		};
+		6E71877B2B65F952006D174B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E71877C2B65F952006D174B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E7187852B65F952006D174B /* OBD2_SmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E7187862B65F952006D174B /* OBD2_SmartTests.swift */,
+			);
+			path = OBD2_SmartTests;
+			sourceTree = "<group>";
+		};
+		6E71878F2B65F952006D174B /* OBD2_SmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E7187902B65F952006D174B /* OBD2_SmartUITests.swift */,
+				6E7187922B65F952006D174B /* OBD2_SmartUITestsLaunchTests.swift */,
+			);
+			path = OBD2_SmartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E7187702B65F951006D174B /* OBD2_Smart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E7187962B65F952006D174B /* Build configuration list for PBXNativeTarget "OBD2_Smart" */;
+			buildPhases = (
+				6E71876D2B65F951006D174B /* Sources */,
+				6E71876E2B65F951006D174B /* Frameworks */,
+				6E71876F2B65F951006D174B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OBD2_Smart;
+			productName = OBD2_Smart;
+			productReference = 6E7187712B65F951006D174B /* OBD2_Smart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E7187812B65F952006D174B /* OBD2_SmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E7187992B65F952006D174B /* Build configuration list for PBXNativeTarget "OBD2_SmartTests" */;
+			buildPhases = (
+				6E71877E2B65F952006D174B /* Sources */,
+				6E71877F2B65F952006D174B /* Frameworks */,
+				6E7187802B65F952006D174B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E7187842B65F952006D174B /* PBXTargetDependency */,
+			);
+			name = OBD2_SmartTests;
+			productName = OBD2_SmartTests;
+			productReference = 6E7187822B65F952006D174B /* OBD2_SmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E71878B2B65F952006D174B /* OBD2_SmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E71879C2B65F952006D174B /* Build configuration list for PBXNativeTarget "OBD2_SmartUITests" */;
+			buildPhases = (
+				6E7187882B65F952006D174B /* Sources */,
+				6E7187892B65F952006D174B /* Frameworks */,
+				6E71878A2B65F952006D174B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E71878E2B65F952006D174B /* PBXTargetDependency */,
+			);
+			name = OBD2_SmartUITests;
+			productName = OBD2_SmartUITests;
+			productReference = 6E71878C2B65F952006D174B /* OBD2_SmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E7187692B65F951006D174B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6E7187702B65F951006D174B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					6E7187812B65F952006D174B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6E7187702B65F951006D174B;
+					};
+					6E71878B2B65F952006D174B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6E7187702B65F951006D174B;
+					};
+				};
+			};
+			buildConfigurationList = 6E71876C2B65F951006D174B /* Build configuration list for PBXProject "OBD2_Smart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E7187682B65F951006D174B;
+			productRefGroup = 6E7187722B65F951006D174B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E7187702B65F951006D174B /* OBD2_Smart */,
+				6E7187812B65F952006D174B /* OBD2_SmartTests */,
+				6E71878B2B65F952006D174B /* OBD2_SmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E71876F2B65F951006D174B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E71877D2B65F952006D174B /* Preview Assets.xcassets in Resources */,
+				6E7187792B65F952006D174B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E7187802B65F952006D174B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E71878A2B65F952006D174B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E71876D2B65F951006D174B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7187772B65F951006D174B /* ContentView.swift in Sources */,
+				6E7187752B65F951006D174B /* OBD2_SmartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E71877E2B65F952006D174B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7187872B65F952006D174B /* OBD2_SmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E7187882B65F952006D174B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7187912B65F952006D174B /* OBD2_SmartUITests.swift in Sources */,
+				6E7187932B65F952006D174B /* OBD2_SmartUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E7187842B65F952006D174B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E7187702B65F951006D174B /* OBD2_Smart */;
+			targetProxy = 6E7187832B65F952006D174B /* PBXContainerItemProxy */;
+		};
+		6E71878E2B65F952006D174B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E7187702B65F951006D174B /* OBD2_Smart */;
+			targetProxy = 6E71878D2B65F952006D174B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E7187942B65F952006D174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E7187952B65F952006D174B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6E7187972B65F952006D174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OBD2_Smart/OBD2_Smart.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OBD2_Smart/Preview Content\"";
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.OBD2-Smart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E7187982B65F952006D174B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OBD2_Smart/OBD2_Smart.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OBD2_Smart/Preview Content\"";
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.OBD2-Smart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E71879A2B65F952006D174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.OBD2-SmartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OBD2_Smart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OBD2_Smart";
+			};
+			name = Debug;
+		};
+		6E71879B2B65F952006D174B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.OBD2-SmartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OBD2_Smart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OBD2_Smart";
+			};
+			name = Release;
+		};
+		6E71879D2B65F952006D174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.OBD2-SmartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OBD2_Smart;
+			};
+			name = Debug;
+		};
+		6E71879E2B65F952006D174B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.OBD2-SmartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OBD2_Smart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E71876C2B65F951006D174B /* Build configuration list for PBXProject "OBD2_Smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E7187942B65F952006D174B /* Debug */,
+				6E7187952B65F952006D174B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E7187962B65F952006D174B /* Build configuration list for PBXNativeTarget "OBD2_Smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E7187972B65F952006D174B /* Debug */,
+				6E7187982B65F952006D174B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E7187992B65F952006D174B /* Build configuration list for PBXNativeTarget "OBD2_SmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E71879A2B65F952006D174B /* Debug */,
+				6E71879B2B65F952006D174B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E71879C2B65F952006D174B /* Build configuration list for PBXNativeTarget "OBD2_SmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E71879D2B65F952006D174B /* Debug */,
+				6E71879E2B65F952006D174B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E7187692B65F951006D174B /* Project object */;
+}
