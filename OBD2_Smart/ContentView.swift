@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            MainView()
+                .tabItem {
+                    Label("Connect", systemImage: "externaldrive.connected.to.line.below")
+                }
+
+            HelpView()
+                .tabItem {
+                    Label("Info", systemImage: "info.square")
+                }
         }
-        .padding()
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E48D4632B6620AE0041F8DF /* CoreBLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E48D4622B6620AE0041F8DF /* CoreBLE.swift */; };
+		6E5D37E82B66736600393E76 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D37E72B66736600393E76 /* Utils.swift */; };
 		6E7187752B65F951006D174B /* OBD2_SmartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187742B65F951006D174B /* OBD2_SmartApp.swift */; };
 		6E7187772B65F951006D174B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187762B65F951006D174B /* ContentView.swift */; };
 		6E7187792B65F952006D174B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7187782B65F952006D174B /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		6E7187872B65F952006D174B /* OBD2_SmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187862B65F952006D174B /* OBD2_SmartTests.swift */; };
 		6E7187912B65F952006D174B /* OBD2_SmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187902B65F952006D174B /* OBD2_SmartUITests.swift */; };
 		6E7187932B65F952006D174B /* OBD2_SmartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187922B65F952006D174B /* OBD2_SmartUITestsLaunchTests.swift */; };
+		6E7187A02B65F9B2006D174B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E71879F2B65F9B2006D174B /* MainView.swift */; };
+		6E7187A22B65F9C2006D174B /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7187A12B65F9C2006D174B /* HelpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E48D4622B6620AE0041F8DF /* CoreBLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBLE.swift; sourceTree = "<group>"; };
+		6E5D37E72B66736600393E76 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		6E7187712B65F951006D174B /* OBD2_Smart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBD2_Smart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7187742B65F951006D174B /* OBD2_SmartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBD2_SmartApp.swift; sourceTree = "<group>"; };
 		6E7187762B65F951006D174B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,8 @@
 		6E71878C2B65F952006D174B /* OBD2_SmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBD2_SmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7187902B65F952006D174B /* OBD2_SmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBD2_SmartUITests.swift; sourceTree = "<group>"; };
 		6E7187922B65F952006D174B /* OBD2_SmartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBD2_SmartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E71879F2B65F9B2006D174B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6E7187A12B65F9C2006D174B /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				6E7187742B65F951006D174B /* OBD2_SmartApp.swift */,
 				6E7187762B65F951006D174B /* ContentView.swift */,
+				6E71879F2B65F9B2006D174B /* MainView.swift */,
+				6E7187A12B65F9C2006D174B /* HelpView.swift */,
+				6E48D4622B6620AE0041F8DF /* CoreBLE.swift */,
+				6E5D37E72B66736600393E76 /* Utils.swift */,
 				6E7187782B65F952006D174B /* Assets.xcassets */,
 				6E71877A2B65F952006D174B /* OBD2_Smart.entitlements */,
 				6E71877B2B65F952006D174B /* Preview Content */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E7187772B65F951006D174B /* ContentView.swift in Sources */,
+				6E48D4632B6620AE0041F8DF /* CoreBLE.swift in Sources */,
+				6E7187A22B65F9C2006D174B /* HelpView.swift in Sources */,
+				6E7187A02B65F9B2006D174B /* MainView.swift in Sources */,
 				6E7187752B65F951006D174B /* OBD2_SmartApp.swift in Sources */,
+				6E5D37E82B66736600393E76 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +435,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Allow;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = Allow;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -429,7 +447,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -457,6 +475,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Allow;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = Allow;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -467,7 +487,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
